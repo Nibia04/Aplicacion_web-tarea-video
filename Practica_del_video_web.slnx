@@ -2,5 +2,8 @@
   <Folder Name="/apib/">
     <Project Path="apib/apiB.csproj" />
   </Folder>
+  <Folder Name="/domain/">
+    <Project Path="domain/Domain.csproj" />
+  </Folder>
   <Project Path="Apliccation/Apliccation.csproj" />
 </Solution>
