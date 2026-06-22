@@ -6,4 +6,5 @@
     <Project Path="domain/Domain.csproj" />
   </Folder>
   <Project Path="Apliccation/Apliccation.csproj" />
+  <Project Path="infrastructure/infrastructure.csproj" />
 </Solution>
