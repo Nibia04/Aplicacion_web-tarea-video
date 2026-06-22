@@ -11,5 +11,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Apliccation\Apliccation.csproj" />
+    <ProjectReference Include="..\Practica_del_video_web.ServiceDefaults\Practica_del_video_web.ServiceDefaults.csproj" />
   </ItemGroup>
 </Project>

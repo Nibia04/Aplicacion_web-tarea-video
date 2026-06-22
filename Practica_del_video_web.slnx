@@ -7,4 +7,6 @@
   </Folder>
   <Project Path="Apliccation/Apliccation.csproj" />
   <Project Path="infrastructure/infrastructure.csproj" />
+  <Project Path="Practica_del_video_web.AppHost/Practica_del_video_web.AppHost.csproj" />
+  <Project Path="Practica_del_video_web.ServiceDefaults/Practica_del_video_web.ServiceDefaults.csproj" />
 </Solution>
