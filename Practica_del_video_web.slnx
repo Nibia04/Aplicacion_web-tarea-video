@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/apib/">
+    <Project Path="apib/apiB.csproj" />
+  </Folder>
+  <Project Path="Apliccation/Apliccation.csproj" />
+</Solution>
