@@ -33,6 +33,7 @@ if (app.Environment.IsDevelopment())
         dbContext.SaveChanges();
     }
 }
+
 app.MapGet(
     "/departamentos/{id}",
     async (int id, IDepartamentoGetById departamentoGetById) =>

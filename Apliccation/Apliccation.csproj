@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <ItemGroup>
-    <ProjectReference Include="..\domain\Domain.csproj" />
+    <ProjectReference Include="..\Dominio\Domain.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
