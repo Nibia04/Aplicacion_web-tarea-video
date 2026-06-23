@@ -3,11 +3,11 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Infrastructure.Data.Repository;
 
-public class DepartamentoRepository : IDepartamentoRepository
+public class DepartamentosRepository : DepartamentosRepository
 {
     private readonly ApplicationContext _context;
 
-    public DepartamentoRepository(ApplicationContext context)
+    public DepartamentosRepository(ApplicationContext context)
     {
         _context = context;
     }

@@ -1,12 +1,11 @@
 var builder = DistributedApplication.CreateBuilder(args);
 
-var dbserver = builder.AddPostgres("dbserver").WithLifetime(ContainerLifetime.Persistent);
-dbserver.WithPgAdmin(optiones =>
-optiones.WithHostPort(5555).WithLifetime(ContainerLifetime.Persistent)
+var dbServer = builder.AddPostgres("dbserver").WithLifetime(ContainerLifetime.Persistent);
+dbServer.WithPgAdmin(options =>
+    options.WithHostPort(5555).WithLifetime(ContainerLifetime.Persistent)
 );
-var db = dbserver.AddDatabase("db");
 
-builder.AddProject<Projects.apiB>("api").WithExternalHttpEndpoints().WithReference(db).WaitFor(dbserver);
+var db = dbServer.AddDatabase("abnbdb");
 
+builder.AddProject<Projects.apiB>("Api").WithExternalHttpEndpoints().WithReference(db).WaitFor(db);
 builder.Build().Run();
-

@@ -15,4 +15,4 @@ public class ApplicationContext : DbContext
         base.OnModelCreating(modelBuilder);
         modelBuilder.ApplyConfigurationsFromAssembly(typeof(ApplicationContext).Assembly);
     }
-}
+}   
