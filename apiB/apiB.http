@@ -1,6 +1,6 @@
 @apiB_HostAddress = http://localhost:5165
 
-GET {{apiB_HostAddress}}/weatherforecast/
+GET {{apiB_HostAddress}}/Departamentos/
 Accept: application/json
 
 ###

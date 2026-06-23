@@ -12,5 +12,6 @@
   <ItemGroup>
     <ProjectReference Include="..\Apliccation\Apliccation.csproj" />
     <ProjectReference Include="..\Practica_del_video_web.ServiceDefaults\Practica_del_video_web.ServiceDefaults.csproj" />
+    <ProjectReference Include="..\infrastructure\infrastructure.csproj" />
   </ItemGroup>
 </Project>
