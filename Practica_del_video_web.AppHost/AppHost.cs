@@ -9,3 +9,4 @@ var db = dbserver.AddDatabase("db");
 builder.AddProject<Projects.apiB>("api").WithExternalHttpEndpoints().WithReference(db).WaitFor(dbserver);
 
 builder.Build().Run();
+
